@@ -1,5 +1,6 @@
 function App() {
   //part one introduction to react exercise
+
   const course = "Half stack application development";
   const part1 = "Fundamentals of react";
   const exercise1 = 10;
@@ -9,6 +10,8 @@ function App() {
   const exercise3 = 14;
 
   const Part = (props) => {
+    //diving each part into seperate components
+
     return (
       <div>
         {props.content} {props.exercise}
